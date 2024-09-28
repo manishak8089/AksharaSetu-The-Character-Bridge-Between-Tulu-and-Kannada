@@ -1,6 +1,6 @@
 # _Characters in Translation: Decrypting Tulu to Kannada_
 
-_This project focuses on developing a deep learning-based solution for translating characters from the Tulu script to Kannada. Tulu, an ancient Dravidian language spoken primarily in coastal Karnataka, lacks adequate computational resources for digitization and translation. This project leverages deep learning algorithms to recognize Tulu characters and translate them into Kannada. The use of maxpooling and Adam optimizer helped achieve 95% accuracy, providing a robust and efficient solution for cross-language character recognition._
+_This project focuses on developing a deep learning-based solution for translating characters from the Tulu script to Kannada. Tulu, an ancient Dravidian language spoken primarily in coastal Karnataka, lacks adequate computational resources for digitization and translation. This project leverages deep learning algorithms to recognize Tulu characters and translate them into Kannada. The use of maxpooling and Adam optimizer helped achieve 96% accuracy, providing a robust and efficient solution for cross-language character recognition._
 
 ## Project Workflow
 
@@ -39,7 +39,7 @@ Image of folder after mapping:
 
 _A Convolutional Neural Network (CNN) model is trained using the segmented and augmented dataset to classify 49 distinct Tulu characters. The architecture consists of three convolutional layers, each followed by MaxPooling to reduce spatial dimensions and enhance feature extraction. Dropout layers are included for regularization, preventing overfitting. Finally, fully connected layers are utilized for character classification, enabling the model to effectively map the learned features to the corresponding characters in the Tulu script._
 <p align="center">
-  <img src="./images/image6.png" alt="Dataset Example 1" width="45%" height="300px" />
+  <img src="./images/image8.jpg" alt="Dataset Example 1" width="45%"  />
 </p>
 
 **5.GUI and Prediction**
