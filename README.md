@@ -34,3 +34,18 @@ Image of folder after mapping:
 <p align="center">
   <img src="./images/image5.png" alt="Dataset Example 1" width="45%" height="300px" />
 </p>
+
+**4.Model Training**
+
+_A Convolutional Neural Network (CNN) model is trained using the segmented and augmented dataset to classify 49 distinct Tulu characters. The architecture consists of three convolutional layers, each followed by MaxPooling to reduce spatial dimensions and enhance feature extraction. Dropout layers are included for regularization, preventing overfitting. Finally, fully connected layers are utilized for character classification, enabling the model to effectively map the learned features to the corresponding characters in the Tulu script._
+<p align="center">
+  <img src="./images/image6.png" alt="Dataset Example 1" width="45%" height="300px" />
+</p>
+
+**5.GUI and Prediction**
+
+_A user-friendly graphical user interface (GUI) is developed using Tkinter, enabling users to upload images of handwritten Tulu characters seamlessly. The application preprocesses the selected images and leverages the trained model to predict and display the corresponding Kannada character, enhancing the overall accessibility and usability of Tulu character recognition._
+<p align="center">
+  <img src="./images/image7.png" alt="Dataset Example 1" width="45%" height="300px" />
+  <img src="./images/image6.png" alt="Dataset Example 1" width="45%" height="300px" />
+</p>
