@@ -42,7 +42,7 @@ _A Convolutional Neural Network (CNN) model is trained using the segmented and a
   <img src="./images/image8.jpg" alt="Dataset Example 1" width="45%"  />
 </p>
 
-**5. GUI and Predictions**
+**5. GUI and Prediction**
 
 _A user-friendly graphical user interface (GUI) is developed using Tkinter, enabling users to upload images of handwritten Tulu characters seamlessly. The application preprocesses the selected images and leverages the trained model to predict and display the corresponding Kannada character, enhancing the overall accessibility and usability of Tulu character recognition._
 <p align="center">
