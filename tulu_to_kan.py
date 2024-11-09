@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array, ImageDataGenerator
 import numpy as np
 import pandas as pd
-import pyttsx3
+import os
 from gtts import gTTS
 from io import BytesIO
 
