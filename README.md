@@ -44,7 +44,7 @@ _A Convolutional Neural Network (CNN) model is trained using the segmented and a
 
 **5. User Interface**
 
-_Streamlit is used to build the interactive web interface for AksharaSetu, providing an easy-to-use platform for character recognition. The interface includes a drawing canvas, powered by streamlit_drawable_canvas, where users can draw Tulu characters directly in the browser. Once the character is drawn, the model predicts the corresponding Kannada character and displays it on the screen. Additionally, an instructions button is available to guide users on how to draw the characters for accurate recognition. Streamlit's simple, responsive layout ensures an intuitive and seamless experience for Tulu-to-Kannada translation._
+_Streamlit is used to build the interactive web interface for AksharaSetu, offering a real-time character recognition platform. The interface features a drawing canvas, powered by streamlit_drawable_canvas, where users can draw Tulu characters directly in the browser. As soon as a character is drawn, the model processes the input in real-time and predicts the corresponding Kannada character, displaying it immediately on the screen. An instructions button is also available to guide users on how to draw the characters for accurate recognition. Streamlit’s simple, responsive layout ensures a smooth and intuitive user experience for real-time Tulu-to-Kannada translation._
 <p align="center">
   <img src="./images/image7.png" alt="Dataset Example 1" width="45%" height="300px" />
   <img src="./images/image6.png" alt="Dataset Example 1" width="45%" height="300px" />
