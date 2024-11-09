@@ -117,7 +117,7 @@ def show_instructions():
 
 
 # Create two columns for a better UI layout
-col1, col2 = st.columns([1, 1])  # Adjust the width ratio for UI
+col1, col2 = st.columns([3, 1])  # Adjust the width ratio for UI
 
 with col1:
     # Header Section
