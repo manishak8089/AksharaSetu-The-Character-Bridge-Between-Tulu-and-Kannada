@@ -11,6 +11,9 @@ import zipfile
 from gtts import gTTS
 from io import BytesIO
 
+# Set page config with a larger layout
+st.set_page_config(page_title="AksharaSetu", layout="wide")
+
 # Define image dimensions
 img_height, img_width = 150, 150
 batch_size = 32
@@ -111,8 +114,7 @@ def show_instructions():
 
 
 
-# Set page config with a larger layout
-st.set_page_config(page_title="AksharaSetu", layout="wide")
+
 
 # Create two columns for a better UI layout
 col1, col2 = st.columns([2, 1])  # Adjust the width ratio for UI
