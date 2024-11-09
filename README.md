@@ -1,6 +1,6 @@
-# _Characters in Translation: Decrypting Tulu to Kannada_
+# _AksharaSetu: The Character Bridge Between Tulu and Kannada_
 
-_This project focuses on developing a deep learning-based solution for translating characters from the Tulu script to Kannada. Tulu, an ancient Dravidian language spoken primarily in coastal Karnataka, lacks adequate computational resources for digitization and translation. This project leverages deep learning algorithms to recognize Tulu characters and translate them into Kannada. The use of maxpooling and Adam optimizer helped achieve 96% accuracy, providing a robust and efficient solution for cross-language character recognition._
+_AksharaSetu is a deep learning-based project designed to recognize and translate handwritten Tulu characters into their Kannada equivalents. This application leverages a Convolutional Neural Network (CNN) model and a user-friendly interface powered by Streamlit, facilitating seamless Tulu-to-Kannada translation for language preservation and educational use._
 
 ## Project Workflow
 
@@ -42,9 +42,9 @@ _A Convolutional Neural Network (CNN) model is trained using the segmented and a
   <img src="./images/image8.jpg" alt="Dataset Example 1" width="45%"  />
 </p>
 
-**5. GUI and Prediction**
+**5. User Interface**
 
-_A user-friendly graphical user interface (GUI) is developed using Tkinter, enabling users to upload images of handwritten Tulu characters seamlessly. The application preprocesses the selected images and leverages the trained model to predict and display the corresponding Kannada character, enhancing the overall accessibility and usability of Tulu character recognition._
+_Streamlit is used to build the interactive web interface for AksharaSetu, providing an easy-to-use platform for character recognition. The interface includes a drawing canvas, powered by streamlit_drawable_canvas, where users can draw Tulu characters directly in the browser. Once the character is drawn, the model predicts the corresponding Kannada character and displays it on the screen. Additionally, an instructions button is available to guide users on how to draw the characters for accurate recognition. Streamlit's simple, responsive layout ensures an intuitive and seamless experience for Tulu-to-Kannada translation._
 <p align="center">
   <img src="./images/image7.png" alt="Dataset Example 1" width="45%" height="300px" />
   <img src="./images/image6.png" alt="Dataset Example 1" width="45%" height="300px" />
