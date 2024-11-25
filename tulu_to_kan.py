@@ -117,7 +117,7 @@ def show_instructions():
 
 
 # Create two columns for a better UI layout
-col1, col2 = st.columns([5, 1])  # Adjust the width ratio for UI
+col1, col2 = st.columns([1, 1])  # Adjust the width ratio for UI
 
 with col1:
     # Header Section
@@ -169,3 +169,16 @@ if canvas_result.image_data is not None:
             
         else:
             st.markdown("<p style='font-size:25px; color:red; font-weight:bold;'>Unrecognized Character</p>", unsafe_allow_html=True)
+with col2:
+    # Open the image
+    img_path = r"chart.jpg"
+    img = Image.open(img_path)
+    
+    # Resize the image (set a new height, adjust width to maintain aspect ratio)
+    target_height = 500  # Desired height in pixels
+    aspect_ratio = img.width / img.height
+    target_width = int(target_height * aspect_ratio)
+    resized_img = img.resize((target_width, target_height))
+    
+    # Display the resized image in Streamlit
+    st.image(resized_img, caption="Tulu-Kannada Character Mapping Chart")
